@@ -1,7 +1,15 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1px;
 }
-
+.AppContainer {
+  width: 1000px;
+  position: relative;
+  left: 400px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
